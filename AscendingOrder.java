@@ -1,3 +1,17 @@
+                                                               TO SORT ELEMENTS IN ASCENDING ORDER
+AIM:To write a Java program to sort the given array elements in ascending order.
+ALGORITHM:
+Start the program.
+Read the number of elements n.
+Create an integer array of size n.
+Read all the elements into the array.
+Compare each element with the remaining elements using nested loops.
+If the first element is greater than the second element, swap them.
+Repeat the comparison until all elements are arranged in ascending order.
+Display the sorted array.
+Stop the program.
+    
+PROGRAM:
 import java.util.Scanner;
 
 public class AscendingOrder {
@@ -15,8 +29,6 @@ public class AscendingOrder {
         for (int i = 0; i < n; i++) {
             a[i] = s.nextInt();
         }
-
-        // Sorting array in ascending order
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
                 if (a[i] > a[j]) {
@@ -38,3 +50,15 @@ public class AscendingOrder {
         s.close();
     }
 }
+OUTPUT:
+Enter no. of elements you want in array: 5
+Enter all the elements:
+45
+12
+78
+23
+10
+Ascending Order: 10,12,23,45,78
+
+RESULT:
+Thus, the Java program to sort the given array elements in ascending order was successfully executed and the required output was obtained.
