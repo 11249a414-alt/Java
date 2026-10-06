@@ -1,3 +1,20 @@
+                                                             TO IMPLEMENT BINARY SEARCH
+AIM:To write a Java program to search for an element in an array using the Binary Search technique.
+ALGORITHM:
+Start the program.
+Read the number of elements in the array.
+Read the array elements.
+Read the element x to be searched.
+Set first = 0 and last = n-1.
+Find the middle element using mid = (first+last)/2.
+If a[mid] > x, set last = mid-1.
+If a[mid] < x, set first = mid+1.
+If a[mid] == x, display "element found".
+Repeat the process until the element is found or first > last.
+If the element is not found, display "element not found".
+Stop the program.
+    
+PROGRAM:
 import java.util.Scanner;
 
 class BinarySearch {
@@ -44,3 +61,19 @@ class BinarySearch {
         sc.close();
     }
 }
+
+OUTPUT:
+Enter number of elements:
+5
+Enter elements of array:
+10
+20
+30
+40
+50
+Enter element to search:
+30
+element found
+
+RESULT:
+Thus, the Java program to search for an element using the Binary Search technique was successfully executed and the required result was obtained.
