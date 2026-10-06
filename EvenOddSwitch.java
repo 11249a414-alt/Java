@@ -43,3 +43,6 @@ class EvenOddSwitch {
 OUTPUT:
 5
 This number is odd
+
+RESULT:
+Thus, the Java program to check whether the given number is even or odd using switch case was successfully executed and the required output was obtained.
