@@ -1,3 +1,26 @@
+                                                                                   STRING OPERATIONS
+AIM:
+To write a Java program to perform various string operations such as finding length, character extraction, concatenation, comparison, case conversion, substring, searching, replacing, trimming, splitting, and type conversion.
+ALGORITHM:
+Start the program.
+Declare and initialize string variables.
+Find the length of the string.
+Display the character at a specified index.
+Perform string concatenation.
+Compare two strings using equals(), equalsIgnoreCase(), and compareTo().
+Convert the string into uppercase and lowercase.
+Extract substrings using substring().
+Search for strings using indexOf(), contains(), startsWith(), and endsWith().
+Replace a part of the string using replace().
+Remove leading and trailing spaces using trim().
+Check whether a string is empty using isEmpty().
+Convert the string into a character array.
+Split a string into multiple strings.
+Convert a string into an integer and an integer into a string.
+Display all the results.
+Stop the program.
+
+PROGRAM:
 public class StringOperations {
     public static void main(String[] args) {
 
@@ -88,3 +111,34 @@ public class StringOperations {
         System.out.println("Name: " + name + ", Age: " + age);
     }
 }
+
+OUTPUT:
+Length: 16
+Character at index 2: v
+Concatenation: Java Programming Language
+equals(): false
+equalsIgnoreCase(): true
+compareTo(): -32
+Uppercase: JAVA PROGRAMMING
+Lowercase: java programming
+Substring:  Programming
+Substring (0-4): Java
+Index of 'Programming': 5
+Contains 'Java': true
+Starts with 'Java': true
+Ends with 'ing': true
+Replace: Python Programming
+Before trim: [   Hello Java   ]
+After trim: [Hello Java]
+Is empty: true
+Character array: J a v a   P r o g r a m m i n g 
+Split strings:
+Apple
+Banana
+Mango
+String to Integer: 150
+Integer to String: 200
+Name: John, Age: 20
+
+RESULT:
+Thus, the Java program to perform various String Operations was successfully executed and the required output was obtained.
